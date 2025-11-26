@@ -1,0 +1,29 @@
+{
+  "width": 700,
+  "height": 400,
+  "padding": { "top": 20, "right": 20, "bottom": 50, "left": 60 },
+  "title": "Market Share by Quarter",
+  "stack": "normalize",
+  "data": {
+    "values": [
+      { "quarter": "Q1", "company": "Acme Corp", "share": 450 },
+      { "quarter": "Q1", "company": "Beta Inc", "share": 320 },
+      { "quarter": "Q1", "company": "Gamma LLC", "share": 180 },
+      { "quarter": "Q2", "company": "Acme Corp", "share": 480 },
+      { "quarter": "Q2", "company": "Beta Inc", "share": 350 },
+      { "quarter": "Q2", "company": "Gamma LLC", "share": 220 },
+      { "quarter": "Q3", "company": "Acme Corp", "share": 520 },
+      { "quarter": "Q3", "company": "Beta Inc", "share": 380 },
+      { "quarter": "Q3", "company": "Gamma LLC", "share": 280 },
+      { "quarter": "Q4", "company": "Acme Corp", "share": 550 },
+      { "quarter": "Q4", "company": "Beta Inc", "share": 420 },
+      { "quarter": "Q4", "company": "Gamma LLC", "share": 310 }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": { "field": "quarter", "type": "nominal" },
+    "y": { "field": "share", "type": "quantitative" },
+    "color": { "field": "company", "type": "nominal" }
+  }
+}

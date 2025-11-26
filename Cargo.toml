@@ -43,6 +43,14 @@ path = "examples/aggregated_bar_chart.rs"
 name = "normalized_stacked_bar_chart"
 path = "examples/normalized_stacked_bar_chart.rs"
 
+[[example]]
+name = "line_chart"
+path = "examples/line_chart.rs"
+
+[[example]]
+name = "stacked_line_chart"
+path = "examples/stacked_line_chart.rs"
+
 [dependencies]
 vis-core.workspace = true
 vis-render.workspace = true

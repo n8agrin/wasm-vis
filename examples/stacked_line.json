@@ -1,0 +1,35 @@
+{
+  "width": 700,
+  "height": 400,
+  "padding": { "top": 20, "right": 20, "bottom": 50, "left": 60 },
+  "title": "Stacked Area Chart - Revenue by Product",
+  "stack": true,
+  "data": {
+    "values": [
+      { "month": "Jan", "product": "Widgets", "revenue": 45 },
+      { "month": "Jan", "product": "Gadgets", "revenue": 32 },
+      { "month": "Jan", "product": "Gizmos", "revenue": 28 },
+      { "month": "Feb", "product": "Widgets", "revenue": 52 },
+      { "month": "Feb", "product": "Gadgets", "revenue": 38 },
+      { "month": "Feb", "product": "Gizmos", "revenue": 31 },
+      { "month": "Mar", "product": "Widgets", "revenue": 61 },
+      { "month": "Mar", "product": "Gadgets", "revenue": 45 },
+      { "month": "Mar", "product": "Gizmos", "revenue": 35 },
+      { "month": "Apr", "product": "Widgets", "revenue": 58 },
+      { "month": "Apr", "product": "Gadgets", "revenue": 41 },
+      { "month": "Apr", "product": "Gizmos", "revenue": 38 },
+      { "month": "May", "product": "Widgets", "revenue": 65 },
+      { "month": "May", "product": "Gadgets", "revenue": 48 },
+      { "month": "May", "product": "Gizmos", "revenue": 42 },
+      { "month": "Jun", "product": "Widgets", "revenue": 72 },
+      { "month": "Jun", "product": "Gadgets", "revenue": 52 },
+      { "month": "Jun", "product": "Gizmos", "revenue": 45 }
+    ]
+  },
+  "mark": "line",
+  "encoding": {
+    "x": { "field": "month", "type": "nominal" },
+    "y": { "field": "revenue", "type": "quantitative" },
+    "color": { "field": "product", "type": "nominal" }
+  }
+}

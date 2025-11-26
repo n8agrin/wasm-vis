@@ -1,0 +1,28 @@
+[workspace]
+resolver = "2"
+members = ["crates/vis-core", "crates/vis-render"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+vis-core = { path = "crates/vis-core" }
+vis-render = { path = "crates/vis-render" }
+
+[package]
+name = "wasm-vis"
+version.workspace = true
+edition.workspace = true
+
+[[example]]
+name = "bar_chart"
+path = "examples/bar_chart.rs"
+
+[dependencies]
+vis-core.workspace = true
+vis-render.workspace = true

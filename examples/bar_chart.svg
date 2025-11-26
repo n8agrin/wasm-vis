@@ -1,0 +1,51 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.05s
+     Running `target/debug/examples/bar_chart`
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <g transform="translate(60,20)">
+    <g class="mark-Rect">
+      <rect x="16.77" y="227.33" width="67.10" height="102.67" fill="#4e79a7"/>
+      <rect x="100.65" y="128.33" width="67.10" height="201.67" fill="#4e79a7"/>
+      <rect x="184.52" y="172.33" width="67.10" height="157.67" fill="#4e79a7"/>
+      <rect x="268.39" y="-3.67" width="67.10" height="333.67" fill="#4e79a7"/>
+      <rect x="352.26" y="33.00" width="67.10" height="297.00" fill="#4e79a7"/>
+      <rect x="436.13" y="135.67" width="67.10" height="194.33" fill="#4e79a7"/>
+    </g>
+    <g class="mark-Rule">
+      <line x1="0.00" y1="330.00" x2="520.00" y2="330.00" stroke="#646464" stroke-width="1.00"/>
+    </g>
+    <g class="mark-Rule">
+      <line x1="50.32" y1="330.00" x2="50.32" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="134.19" y1="330.00" x2="134.19" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="218.06" y1="330.00" x2="218.06" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="301.94" y1="330.00" x2="301.94" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="385.81" y1="330.00" x2="385.81" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="469.68" y1="330.00" x2="469.68" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+    </g>
+    <g class="mark-Text">
+      <text x="50.32" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">A</text>
+      <text x="134.19" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">B</text>
+      <text x="218.06" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">C</text>
+      <text x="301.94" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">D</text>
+      <text x="385.81" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">E</text>
+      <text x="469.68" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">F</text>
+    </g>
+    <g class="mark-Rule">
+      <line x1="0.00" y1="0.00" x2="0.00" y2="330.00" stroke="#646464" stroke-width="1.00"/>
+    </g>
+    <g class="mark-Rule">
+      <line x1="0.00" y1="330.00" x2="-6.00" y2="330.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="256.67" x2="-6.00" y2="256.67" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="183.33" x2="-6.00" y2="183.33" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="110.00" x2="-6.00" y2="110.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="36.67" x2="-6.00" y2="36.67" stroke="#646464" stroke-width="1.00"/>
+    </g>
+    <g class="mark-Text">
+      <text x="-16.00" y="330.00" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">0</text>
+      <text x="-16.00" y="256.67" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">20</text>
+      <text x="-16.00" y="183.33" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">40</text>
+      <text x="-16.00" y="110.00" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">60</text>
+      <text x="-16.00" y="36.67" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">80</text>
+    </g>
+  </g>
+</svg>
+

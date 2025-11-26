@@ -1,0 +1,11 @@
+[package]
+name = "vis-render"
+version.workspace = true
+edition = "2021"
+
+[dependencies]
+vis-core.workspace = true
+
+[features]
+default = ["svg"]
+svg = []

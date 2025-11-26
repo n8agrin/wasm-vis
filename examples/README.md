@@ -35,6 +35,8 @@ Each example consists of two files:
 | `horizontal_bar.json` | `horizontal_bar_chart.rs` | Horizontal bar chart |
 | `aggregated_bar.json` | `aggregated_bar_chart.rs` | Float data with aggregation |
 | `normalized_stacked_bar.json` | `normalized_stacked_bar_chart.rs` | 100% stacked (normalized) |
+| `line.json` | `line_chart.rs` | Simple line chart |
+| `stacked_line.json` | `stacked_line_chart.rs` | Stacked area chart with lines |
 
 ## Adding New Examples
 
@@ -242,10 +244,10 @@ Or with styling:
 
 | Mark | Status |
 |------|--------|
-| `bar` | Fully supported |
-| `line` | Planned |
+| `bar` | Fully supported (vertical, horizontal, grouped, stacked) |
+| `line` | Fully supported (single, multi-series, stacked area) |
 | `point` | Planned |
-| `area` | Planned |
+| `area` | Supported (via stacked line charts) |
 | `rule` | Planned |
 | `text` | Planned |
 

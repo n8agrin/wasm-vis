@@ -10,16 +10,18 @@ Run any example from the project root:
 # Run and print SVG to stdout
 cargo run --example bar_chart
 
-# Save to file
-cargo run --example bar_chart > bar_chart.svg
+# Save to file (redirect stderr to avoid cargo output in SVG)
+cargo run --example bar_chart 2>/dev/null > bar_chart.svg
 
 # Run other examples
-cargo run --example grouped_bar_chart
-cargo run --example stacked_bar_chart
-cargo run --example horizontal_bar_chart
-cargo run --example aggregated_bar_chart
-cargo run --example normalized_stacked_bar_chart
+cargo run --example grouped_bar_chart 2>/dev/null > grouped_bar_chart.svg
+cargo run --example stacked_bar_chart 2>/dev/null > stacked_bar_chart.svg
+cargo run --example horizontal_bar_chart 2>/dev/null > horizontal_bar_chart.svg
+cargo run --example aggregated_bar_chart 2>/dev/null > aggregated_bar_chart.svg
+cargo run --example normalized_stacked_bar_chart 2>/dev/null > normalized_stacked_bar_chart.svg
 ```
+
+Pre-generated SVG files are included in this directory for reference.
 
 ## Example Files
 

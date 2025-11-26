@@ -7,9 +7,9 @@ use crate::ir::{Color, Geometry, Group, Mark, MarkItem, MarkType, Transform};
 use crate::scale::{BandScale, LinearScale};
 use crate::spec::{AxisOrient, DataType, Encoding};
 
-/// Default color palette
+/// Default color palette (hotpink is the default/first color)
 const COLORS: &[&str] = &[
-    "#4e79a7", "#f28e2b", "#e15759", "#76b7b2", "#59a14f", "#edc949", "#af7aa1", "#ff9da7",
+    "#ff69b4", "#f28e2b", "#e15759", "#76b7b2", "#59a14f", "#edc949", "#af7aa1", "#ff9da7",
     "#9c755f", "#bab0ab",
 ];
 

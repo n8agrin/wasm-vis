@@ -1,12 +1,15 @@
 mod bar;
+mod line;
+mod stack;
 
 use serde_json::Value;
 use thiserror::Error;
 
 use crate::ir::{Color, Group, Mark, Scene};
-use crate::spec::{AxisOrient, ChartSpec, DataType, Encoding, MarkType};
+use crate::spec::{AxisOrient, ChartSpec, DataType, Encoding, MarkType, StackConfig};
 
-pub use bar::compile_bar;
+pub use bar::{compile_bar, COLORS};
+pub use line::compile_line;
 
 #[derive(Debug, Error)]
 pub enum CompileError {
@@ -50,7 +53,7 @@ pub fn compile(spec: &ChartSpec) -> Result<Scene, CompileError> {
             .values()
             .ok_or_else(|| CompileError::InvalidData("inline data required".to_string()))?;
 
-        let compiled = compile_mark(mark_spec.mark_type(), encoding, data, &plot_area)?;
+        let compiled = compile_mark(mark_spec.mark_type(), encoding, data, &plot_area, spec.stack.as_ref())?;
         scene.root = compiled;
     } else if let Some(_layers) = &spec.layer {
         // TODO: Layer support in Phase 3
@@ -77,10 +80,12 @@ fn compile_mark(
     encoding: &Encoding,
     data: &[Value],
     plot_area: &PlotArea,
+    stack_config: Option<&StackConfig>,
 ) -> Result<Group, CompileError> {
     match mark_type {
-        MarkType::Bar => compile_bar(encoding, data, plot_area),
-        MarkType::Point | MarkType::Line | MarkType::Area | MarkType::Rule | MarkType::Text | MarkType::Rect => {
+        MarkType::Bar => compile_bar(encoding, data, plot_area, stack_config),
+        MarkType::Line => compile_line(encoding, data, plot_area, stack_config),
+        MarkType::Point | MarkType::Area | MarkType::Rule | MarkType::Text | MarkType::Rect => {
             Err(CompileError::UnsupportedMark(mark_type))
         }
         MarkType::Boxplot | MarkType::Bullet | MarkType::Funnel => {

@@ -23,6 +23,34 @@ edition.workspace = true
 name = "bar_chart"
 path = "examples/bar_chart.rs"
 
+[[example]]
+name = "grouped_bar_chart"
+path = "examples/grouped_bar_chart.rs"
+
+[[example]]
+name = "stacked_bar_chart"
+path = "examples/stacked_bar_chart.rs"
+
+[[example]]
+name = "horizontal_bar_chart"
+path = "examples/horizontal_bar_chart.rs"
+
+[[example]]
+name = "aggregated_bar_chart"
+path = "examples/aggregated_bar_chart.rs"
+
+[[example]]
+name = "normalized_stacked_bar_chart"
+path = "examples/normalized_stacked_bar_chart.rs"
+
+[[example]]
+name = "line_chart"
+path = "examples/line_chart.rs"
+
+[[example]]
+name = "stacked_line_chart"
+path = "examples/stacked_line_chart.rs"
+
 [dependencies]
 vis-core.workspace = true
 vis-render.workspace = true

@@ -1,0 +1,23 @@
+{
+  "width": 600,
+  "height": 400,
+  "padding": { "top": 20, "right": 20, "bottom": 50, "left": 100 },
+  "title": "Top Programming Languages",
+  "data": {
+    "values": [
+      { "language": "JavaScript", "popularity": 64.96 },
+      { "language": "Python", "popularity": 48.07 },
+      { "language": "TypeScript", "popularity": 34.83 },
+      { "language": "Java", "popularity": 33.27 },
+      { "language": "C#", "popularity": 29.16 },
+      { "language": "C++", "popularity": 22.42 },
+      { "language": "Go", "popularity": 13.24 },
+      { "language": "Rust", "popularity": 12.21 }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": { "field": "popularity", "type": "quantitative" },
+    "y": { "field": "language", "type": "nominal" }
+  }
+}

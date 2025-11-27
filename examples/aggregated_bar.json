@@ -1,0 +1,27 @@
+{
+  "width": 600,
+  "height": 400,
+  "padding": { "top": 20, "right": 20, "bottom": 50, "left": 80 },
+  "title": "Average Temperature by City",
+  "data": {
+    "values": [
+      { "city": "Tokyo", "month": "Jan", "temp": 5.2 },
+      { "city": "Tokyo", "month": "Feb", "temp": 6.1 },
+      { "city": "Tokyo", "month": "Mar", "temp": 9.4 },
+      { "city": "London", "month": "Jan", "temp": 4.9 },
+      { "city": "London", "month": "Feb", "temp": 5.1 },
+      { "city": "London", "month": "Mar", "temp": 7.5 },
+      { "city": "Sydney", "month": "Jan", "temp": 23.5 },
+      { "city": "Sydney", "month": "Feb", "temp": 23.8 },
+      { "city": "Sydney", "month": "Mar", "temp": 22.1 },
+      { "city": "New York", "month": "Jan", "temp": 0.6 },
+      { "city": "New York", "month": "Feb", "temp": 2.1 },
+      { "city": "New York", "month": "Mar", "temp": 6.8 }
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": { "field": "city", "type": "nominal" },
+    "y": { "field": "temp", "type": "quantitative", "aggregate": "mean" }
+  }
+}

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <g transform="translate(100,20)">
+    <g class="mark-Rect">
+      <rect x="0.00" y="8.05" width="519.68" height="32.20" fill="#ff69b4"/>
+      <rect x="0.00" y="48.29" width="384.56" height="32.20" fill="#ff69b4"/>
+      <rect x="0.00" y="88.54" width="278.64" height="32.20" fill="#ff69b4"/>
+      <rect x="0.00" y="128.78" width="266.16" height="32.20" fill="#ff69b4"/>
+      <rect x="0.00" y="169.02" width="233.28" height="32.20" fill="#ff69b4"/>
+      <rect x="0.00" y="209.27" width="179.36" height="32.20" fill="#ff69b4"/>
+      <rect x="0.00" y="249.51" width="105.92" height="32.20" fill="#ff69b4"/>
+      <rect x="0.00" y="289.76" width="97.68" height="32.20" fill="#ff69b4"/>
+    </g>
+    <g class="mark-Rule">
+      <line x1="0.00" y1="330.00" x2="480.00" y2="330.00" stroke="#646464" stroke-width="1.00"/>
+    </g>
+    <g class="mark-Rule">
+      <line x1="0.00" y1="330.00" x2="0.00" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="10.00" y1="330.00" x2="10.00" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="20.00" y1="330.00" x2="20.00" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="30.00" y1="330.00" x2="30.00" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="40.00" y1="330.00" x2="40.00" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="50.00" y1="330.00" x2="50.00" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+      <line x1="60.00" y1="330.00" x2="60.00" y2="336.00" stroke="#646464" stroke-width="1.00"/>
+    </g>
+    <g class="mark-Text">
+      <text x="0.00" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">0</text>
+      <text x="10.00" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">10</text>
+      <text x="20.00" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">20</text>
+      <text x="30.00" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">30</text>
+      <text x="40.00" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">40</text>
+      <text x="50.00" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">50</text>
+      <text x="60.00" y="346.00" text-anchor="middle" dominant-baseline="hanging" font-family="sans-serif" font-size="12.0" fill="#646464">60</text>
+    </g>
+    <g class="mark-Rule">
+      <line x1="0.00" y1="0.00" x2="0.00" y2="330.00" stroke="#646464" stroke-width="1.00"/>
+    </g>
+    <g class="mark-Rule">
+      <line x1="0.00" y1="24.15" x2="-6.00" y2="24.15" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="64.39" x2="-6.00" y2="64.39" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="104.63" x2="-6.00" y2="104.63" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="144.88" x2="-6.00" y2="144.88" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="185.12" x2="-6.00" y2="185.12" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="225.37" x2="-6.00" y2="225.37" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="265.61" x2="-6.00" y2="265.61" stroke="#646464" stroke-width="1.00"/>
+      <line x1="0.00" y1="305.85" x2="-6.00" y2="305.85" stroke="#646464" stroke-width="1.00"/>
+    </g>
+    <g class="mark-Text">
+      <text x="-16.00" y="24.15" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">JavaScript</text>
+      <text x="-16.00" y="64.39" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">Python</text>
+      <text x="-16.00" y="104.63" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">TypeScript</text>
+      <text x="-16.00" y="144.88" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">Java</text>
+      <text x="-16.00" y="185.12" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">C#</text>
+      <text x="-16.00" y="225.37" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">C++</text>
+      <text x="-16.00" y="265.61" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">Go</text>
+      <text x="-16.00" y="305.85" text-anchor="end" dominant-baseline="middle" font-family="sans-serif" font-size="12.0" fill="#646464">Rust</text>
+    </g>
+  </g>
+</svg>
+
